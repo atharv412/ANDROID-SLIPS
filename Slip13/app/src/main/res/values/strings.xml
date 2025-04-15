@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">slip13</string>
+    <string name="radiobuttontablelayout">Radiobuttontablelayout</string>
+    <string name="firstname">Firstname</string>
+    <string name="enter_the_first_name">enter the firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="enter_the_last_name">enter_the_last_name</string>
+    <string name="address">Address</string>
+    <string name="enter_the_address">enter_the_address</string>
+    <string name="Phone">Phone</string>
+    <string name="enter_the_phone_number">enter_the_phone_number</string>
+    <string name="email_address">Email_address</string>
+    <string name="enter_the_email_number">enter_the_email_number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+
+
+</resources>

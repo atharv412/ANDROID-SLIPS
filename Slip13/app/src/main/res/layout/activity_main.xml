@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary_dark">
+
+        <TextView
+
+            android:layout_span="1"
+            android:background="@color/design_default_color_primary_dark"
+            android:text="@string/radiobuttontablelayout"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_span="0"
+            android:text="@string/firstname"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/f_name"
+            android:layout_column="1"
+            android:hint="@string/enter_the_first_name"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_span="0"
+            android:text="@string/lastname"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/l_name"
+            android:layout_column="1"
+            android:hint="@string/enter_the_last_name"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/address"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_column="1"
+            android:hint="@string/enter_the_address"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/Phone"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ph_no"
+            android:layout_column="1"
+            android:hint="@string/enter_the_phone_number"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/email_address"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_column="1"
+            android:hint="@string/enter_the_email_number"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <RadioButton
+            android:id="@+id/M"
+            android:text="@string/male" />
+    </TableRow>
+
+    <TableRow>
+
+        <RadioButton
+            android:id="@+id/F"
+            android:text="@string/female" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:text="submit" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:text="clear" />
+    </TableRow>
+
+
+</TableLayout>

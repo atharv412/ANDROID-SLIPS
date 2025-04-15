@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:text="@string/login_form"
+        android:textColor="#7CB342"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/user_name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_marginTop="30dp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/pwd"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_marginTop="30dp"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/S1"
+            android:text="@string/submit"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+        />
+
+    </TableRow>
+
+</TableLayout>
+

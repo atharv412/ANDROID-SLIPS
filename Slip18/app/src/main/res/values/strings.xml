@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Riya_Slip16</string>
+    <string name="user_name">user_name</string>
+    <string name="submit">Submit</string>
+    <string name="pwd">pwd</string>
+    <string name="login_form">Login Form</string>
+</resources>

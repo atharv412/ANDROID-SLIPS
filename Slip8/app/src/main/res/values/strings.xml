@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">S_slip8</string>
+    <string name="enter_any_positive_number">Enter any positive number</string>
+    <string name="calculate">Calculate</string>
+</resources>

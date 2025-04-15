@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">slip15</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Submit">Submit</string>
+</resources>

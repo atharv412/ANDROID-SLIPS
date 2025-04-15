@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">slip3</string>
+    <string name="show_dialog">show_dialog</string>
+    <string name="show_display">show_display</string>
+</resources>

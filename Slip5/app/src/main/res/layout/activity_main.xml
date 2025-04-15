@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Student Details"/>
+
+
+
+
+
+       <EditText
+           android:id="@+id/sname"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="Enter student Name" />
+    <EditText
+        android:id="@+id/sSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter student Surname"/>
+    <EditText
+        android:id="@+id/sclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter student Class"/>
+    <EditText
+        android:id="@+id/sgender"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Enter student Gender"/>
+    <EditText
+        android:id="@+id/shobbies"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Enter student Hobbies"/>
+    <EditText
+        android:id="@+id/smarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter student Marks"/>
+
+    <Button
+        android:id="@+id/sbmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+
+</LinearLayout>
